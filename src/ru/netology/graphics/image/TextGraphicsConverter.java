@@ -39,7 +39,10 @@ public interface TextGraphicsConverter {
 
     /**
      * Устанавливает символьную цветовую схему, которую будет использовать конвертер
+     *
      * @param schema
      */
     void setTextColorSchema(TextColorSchema schema);
+        // данный метод setTColorS был не статик и было override
 }
+
